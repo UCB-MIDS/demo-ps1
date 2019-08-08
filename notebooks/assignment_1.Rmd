@@ -1,5 +1,12 @@
-# Task
+---
+title: "Assignment_1"
+author: "Alex, Daniel and Micah"
+date: "8/8/2019"
+output: github_document
+---
 
-1. Load the data.
-2. Calculate the average of `value`, grouped by `X`.
+1. Load the Data.
+
+2. Calculate a mean of `value` grouped by `x`.
+
 3. Print this result to the screen. 
