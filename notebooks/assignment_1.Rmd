@@ -7,6 +7,22 @@ output: github_document
 
 1. Load the Data.
 
+```{r}
+library(data.table)
+d <- fread('../data/data.csv')
+```
+
 2. Calculate a mean of `value` grouped by `x`.
 
+```{r}
+res <- d[ , .(mean_value = mean(value)), by = .(x)]
+```
+
 3. Print this result to the screen. 
+
+The average is: 
+
+```{r}
+res
+```
+
